@@ -23,16 +23,17 @@ public class Ques3 {
             System.out.println("Enter number : ");
             arr[i]=sc.nextInt();
         }
-        
+        int even=0,odd=0;
         for(int x: arr){
             if(x%2==0){
-                System.out.println(x+ " is even");
+                even++;
             }
             else {
-                System.out.println(x+" is odd");
+                odd++;
             }
         }
-        
+        System.out.println("total even numbers are :"+even);
+        System.out.println("total odd numbers are :"+odd);
         sc.close();
 
     }
