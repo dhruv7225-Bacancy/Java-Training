@@ -20,5 +20,6 @@ public class Ques5 {
             if(i%5==0)continue;
             System.out.print(i+" ");
         }
+        sc.close();
     }
 }
